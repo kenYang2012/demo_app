@@ -1,0 +1,28 @@
+# download a repository on GitHub.com to our machine
+git clone https://github.com/kenYang2012/demo_app.git
+
+# change into the `demo_app` directory
+cd demo_app
+
+# create a new branch to store any new changes
+git branch my-branch
+
+# switch to that branch (line of development)
+git checkout my-branch
+
+# make changes, for example, edit `file1.md` and `file2.md` using the text editor
+
+# stage the changed files
+git add file1.md file2.md
+
+# take a snapshot of the staging area (anything that's been added)
+git commit -m "my snapshot"
+
+# push changes to github
+git push --set-upstream origin my-branch
+
+# create pull request on the page
+
+# mark viewed
+
+# update in the my-branch
