@@ -22,7 +22,12 @@ git commit -m "my snapshot"
 git push --set-upstream origin my-branch
 
 # create pull request on the page
-
+git add file1.md
+git commit -m "my snapshot"
+git push --set-upstream origin my-branch
+code review
 # mark viewed
 
 # update in the my-branch
+
+# merge feature branch to master
